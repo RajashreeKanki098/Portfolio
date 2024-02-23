@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" onclick="Home()">Home</a>
+        <a href="#" onclick="About()">About</a>
+        <a href="#" onclick="Skills()">Skills</a>
+        <a href="#" onclick="Project()">Project</a>
+        <a href="#" onclick="Contact()">Contact</a>
+    </div>
+    <div id="Home" style="display: block;">
+        <h1>
+            I'm a student who is passionate to <br><span style="color:#1E90FF;">Programm</span>
+        </h1>
+        <div class="circle-container">
+            <div class="circle">
+                <div class="title-nm">
+                  Hello!!  I am <br>Rajashree<br>Kanki
+                </div>
+                <img class="background-image" src="image/profile.png" alt="Your Image">
+            </div>
+        </div> 
+    </div>
+    
+    
+    <div id="About" style="display: none;" class="about_title">
+        As a budding Software Developer with experience in Manual and solving 
+        complex problems. Throughout my academic journey and internship experiences,
+        I have gained valuable insights into the intricacies of building software 
+        solutions that are both efficient and user-friendly.
+        I am eager to continue expanding my knowledge and skills in software development.
+        I am passionate about creating innovative solutions that address real-world
+        challenges and am excited about the opportunity to contribute my enthusiasm
+        and dedication to impactful projects. I am currently seeking roles
+        where I can utilize my experience and skill.<br><br><br>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <br><center>SSC</center><br>
+                    D.R. Shriram English Medium <br>
+                    School, Solapur<br>
+                    (2017)<br>
+                    60%<br><br>
+                </div>
+                <div class="slide">
+                    <br><center>HSC</center><br>
+                    D.A.V. Velankar College <br>
+                    of Commerce, Solapur<br>
+                    (2019)<br>
+                    65.23%<br><br>
+                </div>
+                <div class="slide">
+                    <br><center>Bachlore of Commputer<br>Application </center><br>
+                    A.R. Burla College <br>
+                    Solapur<br>
+                    (2022)<br>
+                    82.43%<br>
+                </div>
+                <div class="slide">
+                    <br><center>Master of Commputer<br>Application </center><br>
+                    (Pursuing)<br>
+                    KIT's IMER <br>
+                    Kolhapur<br>
+                    (2024)<br><br>
+                </div>
+            </div>
+        </div>
+    <br>
+        <div class="button-container">
+            <button class="button" onclick="prevSlide()">&#x3c; </button>
+            <button class="button" onclick="nextSlide()">&#x3e;</button>
+        </div>
+    </div>
+
+
+    <div id="Skills" style="display: none;">
+       <div class="content">
+        <div class="logo" style="width: 200%;">
+            <b style="color: #1E90FF;">Skills</b>
+            <hr style="width:300px;margin-left:5px;">
+            <img src="image/c-.png" width="100">
+            <img src="image/letter-c.png" width="100">
+            <img src="image/c-sharp.png" width="100"><br>
+            <img src="image/java.png" width="100">
+            <img src="image/java-script.png" width="100">
+            <img src="image/css-3.png" width="100">
+            <img src="image/html-5.png" width="100"><br>
+            <img src="image/php.png" width="100">
+            <img src="image/python.png" width="100">
+            <img src="image/sql-server.png" width="100">            
+        </div>
+
+        <div class="logo">
+            <b style="color: #1E90FF;">Internship</b>
+            <hr style="width:300px;margin-left:5px;">
+            Vertex Technosys
+            <p style="font-size:15px;">07/2021 - Present Solapur</p>
+            <small>
+                As an intern at Chandra Digital, I actively contributed to the 
+            development and enhancement of a dynamic web application comprising 
+            three distinct panels. This comprehensive project focused on creating 
+            personalized banners for various occasions, including birthdays and 
+            wedding events.
+            </small><br><br>
+
+            Laurel Technologies
+            <p style="font-size:15px;">07/2023 - Present Kolhapur</p>
+            <small>
+            As an intern at Laurel, I took a leading role in the development of the 
+            Snewskolhapur website, a dynamic platform designed to showcase local 
+            news, articles, editorials, etc. specific to the Kolhapur region.
+            </small>
+        </div>
+
+        <div class="logo">
+            <b style="color: #1E90FF;">Languages</b>
+            <hr style="width:300px;margin-left:5px;">
+            English <input type="range" step="90"><br><br>
+            Hindi <input type="range" step="100"><br><br>
+            Telugu <input type="range" step="100"><br><br>
+            Marathi <input type="range" step="78"><br>
+        </div>
+        
+       </div>
+    </div>
+
+
+    <div id="Project" style="display: none;">
+        <div class="content">
+            <div class="card">
+                Construction website<br><p style="font-size: 15px;">(Python,Django,Mysql)</p>
+                This site serves as a user-friendly hub 
+                for construction-related information,
+                project showcases, and client interactions. 
+            </div>
+            <div class="card">
+                Snewskolhapur Website <br><p style="font-size: 15px;">(Php,Mysql)</p>
+                This Project is a dynamic news website, which
+                is aimed to deliver up to the minute
+                needs & information in user friendly format, 
+                catering to a wide audience.
+            </div>
+            <div class="card">
+                Chandra Digital <br><p style="font-size: 15px;">(Php,Mysql)</p>
+                Chandra Digital, a dynamic web application featuring 
+                three distinct panels. In this project designing banners 
+                tailored for birthdays and crafting templates for various 
+                occasions, including weddings and birthdays. This 
+                project allowed users to effortlessly customize digital 
+                content. Chandra Digital met the diverse needs of 
+                users looking for personalized and creative digital 
+                solutions for special events
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="Contact" style="display: none;">
+        <div class="title-nm">
+            Contact Me
+            <div class="c_title">
+                Let's work together
+                <p style="color: #1E90FF;margin-left: 5%;">
+                    ✆ <span style="color: white;">9307130537</span><br>
+                    ✉ <span style="color: white;">kankirajahree@gmail.com</span><br>
+                    <div class="icon" style="margin-left: 5%;">
+                        <a href="https://www.facebook.com/rajashree.kanki.3/"><i style="font-size:24px" class="fa">&nbsp&#xf09a;</i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/rajashree_kanki"><i style="font-size:24px" class="fa">&nbsp&#xf16d;</i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://github.com/RajashreeKanki098"><i style="font-size:24px" class="fa">&nbsp&#xF09B;</i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://twitter.com/KankiRajashree"><i style="font-size:24px;" class="fa">&nbsp&#xF099;</i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/rajashree-kanki-7aab39262/"><i style="font-size:24px;" class="fa">&nbsp&#xF0E1;</i></a>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
+<script>
+    const sections = document.querySelectorAll('.section');
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.querySelector('.button-container .button:first-child');
+    const nextBtn = document.querySelector('.button-container .button:last-child');
+    let currentIndex = 0;
+
+    function showSection(sectionId) {
+    sections.forEach(section => {
+    section.style.display = 'none';
+    });
+
+    document.getElementById(sectionId).style.display = 'block';
+    }
+
+    function prevSlide() {
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : 0;
+    updateSlider();
+    }
+
+    function nextSlide() {
+    currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : slides.length - 1;
+    updateSlider();
+    }
+
+    function updateSlider() {
+    const slideWidth = slides[0].clientWidth;
+    const newTranslateX = -slideWidth * currentIndex + 'px';
+    slider.style.transform = `translateX(${newTranslateX})`;
+
+    toggleButtonState();
+    }
+
+    function toggleButtonState() {
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex === slides.length - 1;
+    }
+
+    showSection('Home'); 
+
+
+    function Home()
+    {
+        document.getElementById("Home").style.cssText="display:block;";
+        document.getElementById("About").style.cssText="display:none;";
+        document.getElementById("Skills").style.cssText="display:none;";
+        document.getElementById("Project").style.cssText="display:none;";
+        document.getElementById("Contact").style.cssText="display:none;";
+    }
+    function About()
+    {
+        document.getElementById("Home").style.cssText="display:none;";
+        document.getElementById("About").style.cssText="display:block;";
+        document.getElementById("Skills").style.cssText="display:none;";
+        document.getElementById("Project").style.cssText="display:none;";
+        document.getElementById("Contact").style.cssText="display:none;";
+    }
+    function Skills()
+    {
+        document.getElementById("Home").style.cssText="display:none;";
+        document.getElementById("About").style.cssText="display:none;";
+        document.getElementById("Skills").style.cssText="display:block;";
+        document.getElementById("Project").style.cssText="display:none;";
+        document.getElementById("Contact").style.cssText="display:none;";
+    }
+    function Project()
+    {
+        document.getElementById("Home").style.cssText="display:none;";
+        document.getElementById("About").style.cssText="display:none;";
+        document.getElementById("Skills").style.cssText="display:none;";
+        document.getElementById("Project").style.cssText="display:Project;";
+        document.getElementById("Contact").style.cssText="display:none;";
+    }
+    function Contact()
+    {
+        document.getElementById("Home").style.cssText="display:none;";
+        document.getElementById("About").style.cssText="display:none;";
+        document.getElementById("Skills").style.cssText="display:none;";
+        document.getElementById("Project").style.cssText="display:none;";
+        document.getElementById("Contact").style.cssText="display:block;";
+    }
+</script>
